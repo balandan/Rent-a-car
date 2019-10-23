@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_perioada"
+            android:icon="@drawable/ic_calendar"
+            android:title="Seteaza perioada"
+            />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_check"
+            android:title="Comenzile mele" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/colorWhite"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_AllCars"
+            android:icon="@drawable/ic_list"
+            android:iconTint="@color/colorWhite"
+            android:title="Toate masinile"/>
+
+        <item
+            android:id="@+id/nav_MasiniMici"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Masini Mici"/>
+
+        <item
+            android:id="@+id/nav_masiniSedan"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Masini sedan"/>
+
+        <item
+            android:id="@+id/nav_masiniDeEpoca"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Masini de epoca"/>
+
+        <item
+            android:id="@+id/nav_masiniOffRoad"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Masini Off Road"/>
+
+        <item
+            android:id="@+id/nav_camioane"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Camionete si camioane"/>
+
+        <item
+            android:id="@+id/nav_AgroCars"
+            android:icon="@drawable/ic_right_arrow"
+            android:iconTint="@color/colorWhite"
+            android:title="Utilaje agricole"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorWhite"
+            android:title="Logout" />
+
+
+    </group>
+
+
+</menu>

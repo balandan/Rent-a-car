@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/cart_product_carName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Nume masina"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/cart_car_ID"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:text="Numar masina"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:gravity="end"
+            android:layout_marginRight="2dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/cart_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Price"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/cart_car_ID"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/cart_product_carName"
+            android:gravity="start"
+            android:layout_marginTop="60dp"
+            />
+
+        <TextView
+            android:id="@+id/endDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End date"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/cart_car_ID"
+            android:gravity="end"
+            android:layout_marginTop="60dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

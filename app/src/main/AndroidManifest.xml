@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rentacar">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".user.CartActivity" />
+        <activity android:name=".user.PickTimeActivity" />
+        <activity android:name=".user.VerifyCode" />
+        <activity android:name=".user.CarDetailsActivity" />
+        <activity
+            android:name=".user.UserMainActivity"
+            android:label="@string/title_activity_user_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".admin.AdminAddCar" />
+        <activity
+            android:name=".admin.AdminCarsActivity"
+            android:label="@string/title_activity_admin_cars"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".admin.BannedUsersActivity" />
+        <activity android:name=".user.services.UserService" />
+        <activity android:name=".admin.UsersActivity" />
+        <activity
+            android:name=".user.ui.adapters.UsersAdapter"
+            android:label="@string/title_activity_users_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrass"
+    tools:context=".admin.AdminCarsActivity">
+
+    <TextView
+        android:id="@+id/title_adminCarsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Adauga autovehicul"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/categorii_masini_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_adminCarsActivity"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/smallCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_small_car" />
+
+        <ImageView
+
+            android:id="@+id/sedanCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_sedan_car_model" />
+
+        <ImageView
+            android:id="@+id/oldCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_volkswagen_car_side_view" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/categorii_masini_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categorii_masini_line1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/monsterCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_monster_truck" />
+
+        <ImageView
+
+            android:id="@+id/truckCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_frontal_truck" />
+
+        <ImageView
+            android:id="@+id/tractorCars_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_tractor_front" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".user.PickTimeActivity">
+    
+    <Button
+        android:id="@+id/startDay_calendarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alege prima zi"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        />
+    <TextView
+        android:id="@+id/firstDay_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prima zi"
+        android:layout_below="@id/startDay_calendarBtn"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/lastDay_calendarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alege ultima zi"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/firstDay_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        />
+
+    <TextView
+        android:id="@+id/LastDay_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultima zi"
+        android:layout_below="@id/lastDay_calendarBtn"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/ok_calendarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/LastDay_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        />
+    
+</RelativeLayout>

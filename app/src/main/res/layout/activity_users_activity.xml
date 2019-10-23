@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".admin.UsersActivity">
+
+    <EditText
+        android:id="@+id/user_searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/user_searchIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd = "@id/user_searchBar"
+        android:src="@drawable/ic_search"
+        android:layout_alignRight="@id/user_searchBar" />
+
+    <ListView
+        android:layout_marginTop="40dp"
+        android:id="@+id/user_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    
+    
+</RelativeLayout>

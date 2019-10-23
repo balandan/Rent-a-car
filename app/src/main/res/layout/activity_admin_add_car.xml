@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".admin.AdminAddCar">
+
+    <ImageView
+        android:id="@+id/car_add_image"
+        android:layout_width="410dp"
+        android:layout_height="250dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo"
+        />
+
+    <EditText
+        android:id="@+id/carMarcaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="marca"
+        android:background="@color/colorGreyy"
+        android:layout_below="@+id/car_add_image"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/carModelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGreyy"
+        android:hint="model"
+        android:layout_below="@+id/carMarcaEditText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+    />
+
+    <EditText
+        android:id="@+id/carTipEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@color/colorGreyy"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="tip"
+        android:layout_below="@+id/carModelEditText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="title"
+        android:background="@color/colorGreyy"
+        android:layout_below="@+id/carTipEditText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreyy"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:hint="descriere"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/titleEditText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="20dp"
+        android:hint="pret"
+        android:background="@color/colorGreyy"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/descriptionEditText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/addCarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priceEditText"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        android:padding="13dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Adauga autovehicul"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
+
+</ScrollView>

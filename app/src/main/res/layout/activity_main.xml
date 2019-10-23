@@ -5,16 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/varianta1"
+    android:background="@drawable/welcomescreen"
     tools:context=".MainActivity">
 
-    <!--<ImageView-->
-        <!--android:id="@+id/app_logo"-->
-        <!--android:layout_width="400dp"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="30dp"-->
-        <!--android:src="@drawable/logo" />-->
+    <!--<ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/af0e6d81_bd1a_499c_a326_1b20b93d90d4_200x200"/>-->
 
     <Button
         android:id="@+id/main_login_btn"
@@ -28,7 +28,7 @@
         android:padding="13dp"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:text="Login"
+        android:text="Autentificare"
         android:textColor="@android:color/white"
 
         />
@@ -45,7 +45,7 @@
         android:padding="13dp"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:text="Join Now"
+        android:text="Inregistrare"
         android:textColor="@android:color/white"
 
         />
